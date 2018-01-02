@@ -9,7 +9,9 @@ body, html{
  }
 
 .icon-bar {
-    width: 100%; /* Full-width */
+    width: auto ;
+    max-width: 100% ;
+    height: auto ; /* Full-width */
     background-color: #555; /* Dark-grey background */
     overflow: auto; /* Overflow due to float */
 }
