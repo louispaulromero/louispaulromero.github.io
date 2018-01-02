@@ -1,0 +1,42 @@
+body, html{
+	height: 100%;
+	width: 100%;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+ }
+
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 20%; /* Equal width (5 icons with 20% width each = 100%) */
+    padding: 36px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 108px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: #00F; /* Add a hover color */
+}
+
+.active {
+    background-color: #00F; /* Add an active/current color */
+}
+
+.centeredImage {
+	position: absolute;
+	margin: auto;
+	left: 0; 
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
